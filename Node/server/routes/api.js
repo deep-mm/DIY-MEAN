@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const Product = require('../models/product');
 
-const url = 'mongodb://admin:admin123@ds135796.mlab.com:35796/diy-product';//'mongodb://localhost:27017/diy-products';
+const url = 'mongodb://localhost:27017/diy-products';//'mongodb://admin:admin123@ds135796.mlab.com:35796/diy-product';//'mongodb://localhost:27017/diy-products';
 const path = '/Users/deepmehta/Deep/Projects/GITHUB/Web Development/DIY - MEAN/Node/';
 mongoose.Promise = global.Promise;
 
