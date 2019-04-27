@@ -1,0 +1,21 @@
+
+  <h1 style="text-align: center">Shopping Cart</h1>
+
+  <div class="cart container">
+    <br>
+    <div class="row">
+      <div class="col-sm-3" style="background-color:#b8daff;">Items</div>
+      <div class="col-sm-3" style="background-color:#b8daff;">Price</div>
+      <div class="col-sm-3" style="background-color:#b8daff;">Quantity</div>
+      <div class="col-sm-3" style="background-color:#b8daff;">Update</div>
+    </div>
+  <div class="row" *ngFor="let items of cartitems">
+    <div class="col-sm-3" style="background-color:lavender;">{{items.name}}</div>
+    <div class="col-sm-3" style="background-color:lavender;">{{items.price}}</div>
+    <div class="col-sm-3" style="background-color:lavender;">{{items.quantity}}</div>
+    <div class="col-sm-3" style="background-color:lavender;"><button class="btn-danger">Delete</button></div>
+  </div>
+    <br>
+  </div>
+
+
